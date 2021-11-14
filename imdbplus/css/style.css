@@ -1,0 +1,14 @@
+img{
+	position: relative;
+	align-items: center;
+	width: 65%;
+	height: 370px;
+}
+
+body{
+	background: #060613;
+}
+h1{
+	font-family: monospace;
+	color: white;
+}
