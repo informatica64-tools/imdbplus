@@ -7,50 +7,44 @@
 
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 
-	<div class="header container">
-			<header>
-				<h1>
-					<span><a href="./">IMDBPLUS</a></abbr></span>
-				</h1>
+	<header>
+		<h1>
+			<span><a href="./">IMDBPLUS</a></abbr></span>
+		</h1>
+	</header>
 
-				<nav class="menu">
-				 	<ul>
-				 		<li><a href="./">Home</a></li>
-				 		<li><a href="movies.php">Movies</a></li>
-				 		<li><a href="series.php">Series</a></li>
-				 		<li><a href="categories.php">Categories</a>
-				 			<ul>
-				 				<li><a href="#">Terror</a></li>
-				 				<li><a href="#">Action</a></li>
-				 				<li><a href="#">Comedy</a></li>
-				 				<li><a href="#">Fantasy</a></li>
-				 				<li><a href="#">Science</a></li>
-				 				<li><a href="#">Suspense</a></li>
-				 			</ul>
-				 		</li>
-				 		<li><a href="kids.php">Kids</a></li>
-				 	</ul>
-				</nav>
 
-				<div class="search">
-					<i class="fas fa-search"></i>
-				</div>
+	<div id="header">
 
-				<div class="start">
-					<ul>
-						<li><a href="subscription/subscribe.php">SUBSCRIBE</a></li>
-						<li><a href="register/register.php">REGISTER</a></li>
-					</ul>
-				</div>
-			</header>
+	 	<ul>
+	 		<li id="item"><a href="./">Home</a></li>
+	 		<li id="item"><a href="movies.php">Movies</a></li>
+	 		<li id="item"><a href="series.php">Series</a></li>
+	 		<li id="item"><a href="categories.php">Categories</a>
+	 			<ul>
+	 				<li><a href="#">Sub1</a></li>
+	 				<li><a href="#">Sub2</a></li>
+	 				<li><a href="#">Sub3</a></li>
+	 			</ul>
+	 			
+	 		<li><a href="kids.php">Kids</a></li>
+	 	</ul>
+
 	</div>
 
+
+	<div class="start">
+		<ul>
+			<li><a href="subscription/subscribe.php">SUBSCRIBE</a></li>
+			<li><a href="register/register.php">REGISTER</a></li>
+		</ul>
+	</div>
 
 
 	<div class="container">

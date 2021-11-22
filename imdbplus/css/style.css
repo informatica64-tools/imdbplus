@@ -8,7 +8,52 @@ img{
 body{
 	background: #060613;
 }
-h1{
+h1 span a{
+	text-decoration: none;
 	font-family: monospace;
 	color: white;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	width: 20%;
+}
+
+#header{
+	margin: auto;
+	font-family: monospace;
+	width: 70%;
+}
+
+ul{
+	list-style: none;
+}
+
+#header ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 10px 5px 10px;
+	display: block;
+	width: 25%;
+}
+
+#header ul li{
+	float: left;
+}
+
+.other-covers h2{
+	color: white;
+}
+
+.start ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 10px 5px 10px;
+	float: right;
+}
+
+#header ul li ul{
+	width: 25%;
+}
+
+#header, header{
+	padding: 10px;
 }
