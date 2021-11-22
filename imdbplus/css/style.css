@@ -1,59 +1,103 @@
-img{
-	position: relative;
-	align-items: center;
-	width: 65%;
-	height: 370px;
+
+
+.floaiting-cover a img {
+    position: relative;
+    align-items: center;
+    left: -1px;
+    border-radius: 8px;
+    bottom: 34px;
 }
 
 body{
 	background: #060613;
-}
-h1 span a{
-	text-decoration: none;
-	font-family: monospace;
+	width: 94%;
+	margin: auto;
 	color: white;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	width: 20%;
+	text-decoration: none;
 }
 
-#header{
-	margin: auto;
-	font-family: monospace;
-	width: 70%;
+h1 a{
+	font-family: Fantasy;
+	text-decoration: none;
+	color: #02ffa1;
+	width: 14%;
+	padding: 5px;
+	font-size: 2rem;
+}
+
+h1 {
+    /* padding: 8px; */
+    width: 13%;
+    /* padding: 0px; */
+    margin: 8px 0 8px;
+}
+
+.nav--menu {
+    font-family: revert;
+    width: 70%;
+    align-items: center;
+    color: #fff;
+    margin: auto;
+    padding: 2px;
+    bottom: 50px;
+    position: relative;
+	font-size: 1.1rem;
 }
 
 ul{
 	list-style: none;
 }
 
-#header ul li a{
+nav li a{
 	text-decoration: none;
 	color: white;
-	padding: 5px 10px 5px 10px;
-	display: block;
-	width: 25%;
-}
-
-#header ul li{
-	float: left;
-}
-
-.other-covers h2{
-	color: white;
-}
-
-.start ul li a{
-	text-decoration: none;
-	color: white;
-	padding: 5px 10px 5px 10px;
-	float: right;
-}
-
-#header ul li ul{
-	width: 25%;
-}
-
-#header, header{
 	padding: 10px;
+}
+.start a:hover {
+    color: #02ffa1;
+}
+
+.start {
+    float: right;
+    position: relative;
+    bottom: 55px;
+}
+
+
+.title-selector {
+    width: 75%;
+    height: 70px;
+}
+
+.nav--menu {
+    align-items: center;
+    flex-wrap: initial;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    right: 20px;
+}
+
+.start a{
+	text-decoration: none;
+	border: solid white 0.1rem;
+    padding: 5px;
+    font-family: emoji;
+}
+
+.buton{
+	border: solid white 3px !important;
+    border-radius: 5px;
+    color: white;
+}
+
+.bt{
+	color: black;
+    background: #ffff5e;
+	border: solid #ffff5e 3px !important;
+	border-radius: 5px;
 }

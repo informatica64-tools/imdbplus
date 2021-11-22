@@ -13,102 +13,85 @@
 </head>
 <body>
 
-	<header>
-		<h1>
-			<span><a href="./">IMDBPLUS</a></abbr></span>
-		</h1>
-	</header>
+	<div class="title-selector">
 
+		<h1><a href="./" class="mr-4">IMDBPLUS</a></h1>
 
-	<div id="header">
+		<nav class="nav nav--menu">
 
-	 	<ul>
-	 		<li id="item"><a href="./">Home</a></li>
-	 		<li id="item"><a href="movies.php">Movies</a></li>
-	 		<li id="item"><a href="series.php">Series</a></li>
-	 		<li id="item"><a href="categories.php">Categories</a>
-	 			<ul>
-	 				<li><a href="#">Sub1</a></li>
-	 				<li><a href="#">Sub2</a></li>
-	 				<li><a href="#">Sub3</a></li>
-	 			</ul>
+	 		<li><a class="nav__link px-3@xl" href="./">Home</a></li>
+	 		<li><a class="nav__link px-3@xl" href="#movies.php">Movies</a></li>
+	 		<li><a class="nav__link px-3@xl" href="#series.php">Series</a></li>
+
+			<li class="nav-item dropdown">
+
+				<a class="nav-link dropdown-toggle" href="#categories.php" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				    Categories
+				</a>
+
+				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<li><a class="dropdown-item" href="#">Action</a></li>
+					<li><a class="dropdown-item" href="#">Terror</a></li>
+
+					<!--<li><hr class="dropdown-divider"></li>-->
+
+					<li><a class="dropdown-item" href="#">Fantasy</a></li>
+					<li><a class="dropdown-item" href="#">Science</a></li>
+					<li><a class="dropdown-item" href="#">Suspense</a></li>
+					<li><a class="dropdown-item" href="#">Comedy</a></li>
+				</ul>
+
+			</li>
 	 			
-	 		<li><a href="kids.php">Kids</a></li>
-	 	</ul>
+	 		<li><a class="nav__link px-3@xl" href="kids.php">Kids</a></li>
+
+		</nav>
 
 	</div>
 
 
 	<div class="start">
-		<ul>
-			<li><a href="subscription/subscribe.php">SUBSCRIBE</a></li>
-			<li><a href="register/register.php">REGISTER</a></li>
-		</ul>
+		<a class="c-button bt" href="#subscription/subscribe.php">SUBSCRIBE</a>
+		<a class="c-button buton" href="#register/register.php">REGISTER</a>
 	</div>
 
 
-	<div class="container">
-
 		<div class="floaiting-cover">
-			<ul class="menu1">
-				<li><a href="#bruce lee"><img src="images/bruce lee.jpeg"></a></li>
-		        <li><a href="#jackiechan"><img src="images/jackiechan.jpeg"></a></li>
-		        <li><a href="#hackers1995"><img src="images/hackers1995.jpeg"></a></li>
-		        <li><a href="#matrix"><img src="images/matrix.jpg"></a></li>
-		        <li><a href="#sankypanky"><img src="images/sankypanky.jpeg"></a></li>
-			</ul>
+			<a href="#bruce lee"><img src="images/portada.jpg"></a>
+	        <a href="#jackiechan"><img src="images/jackiechan.jpeg"></a>
+	        <a href="#hackers1995"><img src="images/hackers1995.jpeg"></a>
+	        <a href="#matrix"><img src="images/matrix.jpg"></a>
+	        <a href="#sankypanky"><img src="images/sankypanky.jpeg"></a>
 		</div>
 
 		<div class="other-covers">
-			<ul>
-				<li><a src="covers/#"><img src="covers/#"></a></li>
-				<li><a src="covers/#"><img src="covers/#"></a></li>
-				<li><a src="covers/#"><img src="covers/#"></a></li>
-				<li><a src="covers/#"><img src="covers/#"></a></li>
-				<li><a src="covers/#"><img src="covers/#"></a></li>
-				<li><a src="covers/#"><img src="covers/#"></a></li>
-				<li><a src="covers/#"><img src="covers/#"></a></li>
-				<li><a src="covers/#"><img src="covers/#"></a></li>
-				<li><a src="covers/#"><img src="covers/#"></a></li>
-				<li><a src="covers/#"><img src="covers/#"></a></li>
-			</ul>
+			<a src="covers/#"><img src="covers/#"></a>
+			<a src="covers/#"><img src="covers/#"></a>
+			<a src="covers/#"><img src="covers/#"></a>
+			<a src="covers/#"><img src="covers/#"></a>
+			<a src="covers/#"><img src="covers/#"></a>
 		</div>
 
 
 		<div class="other-covers">
 			<h2>Las más vistas</h2>
-			<ul>
-				<li><a src="covers/#las-mas-vistas"><img src="covers/"></a></li>
-				<li><a src="covers/#las-mas-vistas"><img src="covers/"></a></li>
-				<li><a src="covers/#las-mas-vistas"><img src="covers/"></a></li>
-				<li><a src="covers/#las-mas-vistas"><img src="covers/"></a></li>
-				<li><a src="covers/#las-mas-vistas"><img src="covers/"></a></li>
-				<li><a src="covers/#las-mas-vistas"><img src="covers/"></a></li>
-				<li><a src="covers/#las-mas-vistas"><img src="covers/"></a></li>
-				<li><a src="covers/#las-mas-vistas"><img src="covers/"></a></li>
-				<li><a src="covers/#las-mas-vistas"><img src="covers/"></a></li>
-				<li><a src="covers/#las-mas-vistas"><img src="covers/"></a></li>
-			</ul>
+			<a src="covers/#las-mas-vistas"><img src="covers/"></a>
+			<a src="covers/#las-mas-vistas"><img src="covers/"></a>
+			<a src="covers/#las-mas-vistas"><img src="covers/"></a>
+			<a src="covers/#las-mas-vistas"><img src="covers/"></a>
+			<a src="covers/#las-mas-vistas"><img src="covers/"></a>
 		</div>
 
 
 		<div class="other-covers">
 			<h2>Títulos recomendados<h2>
-			<ul>
-				<li><a src="covers/#las-mas-vistas"><img src="covers/"></a></li>
-				<li><a src="covers/#las-mas-vistas"><img src="covers/"></a></li>
-				<li><a src="covers/#las-mas-vistas"><img src="covers/"></a></li>
-				<li><a src="covers/#las-mas-vistas"><img src="covers/"></a></li>
-				<li><a src="covers/#las-mas-vistas"><img src="covers/"></a></li>
-				<li><a src="covers/#las-mas-vistas"><img src="covers/"></a></li>
-				<li><a src="covers/#las-mas-vistas"><img src="covers/"></a></li>
-				<li><a src="covers/#las-mas-vistas"><img src="covers/"></a></li>
-				<li><a src="covers/#las-mas-vistas"><img src="covers/"></a></li>
-				<li><a src="covers/#las-mas-vistas"><img src="covers/"></a></li>
-			</ul>
+			<a src="covers/#las-mas-vistas"><img src="covers/"></a>
+			<a src="covers/#las-mas-vistas"><img src="covers/"></a>
+			<a src="covers/#las-mas-vistas"><img src="covers/"></a>
+			<a src="covers/#las-mas-vistas"><img src="covers/"></a>
+			<a src="covers/#las-mas-vistas"><img src="covers/"></a>
 		</div>
 
-	</div>
 
 	<footer>
 		
@@ -117,4 +100,5 @@
 
 </body>
 </html>
+
 
