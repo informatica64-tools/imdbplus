@@ -10,6 +10,20 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/slider.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+	<script type="text/javascript" charset="utf-8">
+		$(window).load(function() {
+		    $('.flexslider').flexslider({
+		    	touch: true,
+		    	pauseOnAction: false,
+		    	pauseOnHover: false,
+		    });
+		});
+	</script>
+
 </head>
 <body>
 
@@ -22,9 +36,9 @@
 	 		<li><a class="nav__link px-3@xl" href="./">Home</a></li>
 	 		<li><a class="nav__link px-3@xl" href="#movies.php">Movies</a></li>
 	 		<li><a class="nav__link px-3@xl" href="#series.php">Series</a></li>
+	 		<li><a class="nav__link px-3@xl" href="#colections.php">Colections</a></li>
 
 			<li class="nav-item dropdown">
-
 				<a class="nav-link dropdown-toggle" href="#categories.php" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 				    Categories
 				</a>
@@ -40,10 +54,14 @@
 					<li><a class="dropdown-item" href="#">Suspense</a></li>
 					<li><a class="dropdown-item" href="#">Comedy</a></li>
 				</ul>
-
 			</li>
-	 			
-	 		<li><a class="nav__link px-3@xl" href="kids.php">Kids</a></li>
+
+	 		<li><a class="nav__link px-3@xl" href="#kids.php">Kids</a></li>
+
+	 		<form class="d-flex search-form" method="GET">
+		    	<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+		    	<button class="btn btn-outline-secondary" type="submit">Search</button>
+		    </form>
 
 		</nav>
 
@@ -52,16 +70,18 @@
 
 	<div class="start">
 		<a class="c-button bt" href="#subscription/subscribe.php">SUBSCRIBE</a>
-		<a class="c-button buton" href="#register/register.php">REGISTER</a>
+		<a class="c-button buton" href="#register/register.php">ENTER</a>
 	</div>
 
 
 		<div class="floaiting-cover">
-			<a href="#bruce lee"><img src="images/portada.jpg"></a>
-	        <a href="#jackiechan"><img src="images/jackiechan.jpeg"></a>
-	        <a href="#hackers1995"><img src="images/hackers1995.jpeg"></a>
-	        <a href="#matrix"><img src="images/matrix.jpg"></a>
-	        <a href="#sankypanky"><img src="images/sankypanky.jpeg"></a>
+			<a href="#subscription"><img src="images/portada.jpg"></a>
+	        <a href="#subscription"><img src="images/portada2.webp.png"></a>
+	        <a href="#subscription">
+	        	<video controls>
+	        		<source src="images/sospechosas-inesperadas-tl.mp4" type="video/mp4">
+	        	</video>
+	        </a>
 		</div>
 
 		<div class="other-covers">
@@ -97,7 +117,8 @@
 		
 	</footer>
 
-
+	<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
 

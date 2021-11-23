@@ -1,11 +1,12 @@
 
 
-.floaiting-cover a img {
+.floaiting-cover a img,.floaiting-cover a video{
     position: relative;
     align-items: center;
     left: -1px;
-    border-radius: 8px;
+    border-radius: 5px;
     bottom: 34px;
+    width: 100%;
 }
 
 body{
@@ -39,7 +40,7 @@ h1 {
     color: #fff;
     margin: auto;
     padding: 2px;
-    bottom: 50px;
+    bottom: 51px;
     position: relative;
 	font-size: 1.1rem;
 }
@@ -53,7 +54,7 @@ nav li a{
 	color: white;
 	padding: 10px;
 }
-.start a:hover {
+a:hover {
     color: #02ffa1;
 }
 
@@ -86,7 +87,8 @@ nav li a{
 	text-decoration: none;
 	border: solid white 0.1rem;
     padding: 5px;
-    font-family: emoji;
+    font-family: monospace;
+    font-weight: bold;
 }
 
 .buton{
@@ -101,3 +103,23 @@ nav li a{
 	border: solid #ffff5e 3px !important;
 	border-radius: 5px;
 }
+
+.search-form{
+	position: relative;
+	left: 330px;
+	width: 40%;
+}
+
+.search-form button {
+    position: relative;
+    float: right;
+    color: white;
+    border: solid white 0.1rem;
+}
+
+.search-form input {
+    position: relative;
+    width: 80%;
+    height: 40px;
+}
+
