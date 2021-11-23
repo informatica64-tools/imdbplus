@@ -58,10 +58,10 @@
 
 	 		<li><a class="nav__link px-3@xl" href="#kids.php">Kids</a></li>
 
-	 		<form class="d-flex search-form" method="GET">
-		    	<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+	 		<!-- <form class="d-flex search-form" method="GET">
+		    	<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="search">
 		    	<button class="btn btn-outline-secondary" type="submit">Search</button>
-		    </form>
+		    </form> -->
 
 		</nav>
 
@@ -71,12 +71,27 @@
 	<div class="start">
 		<a class="c-button bt" href="#subscription/subscribe.php">SUBSCRIBE</a>
 		<a class="c-button buton" href="#register/register.php">ENTER</a>
+
+		<button class="ml-3 icon--md c-link c-link--text search-icon" type="button" title="Busca en el catálogo..." data-toggle="modal" data-target="#filmin-search" name="search">
+			<i class="fas fa-search"></i>
+		</button>
+
 	</div>
 
 
 		<div class="floaiting-cover">
-			<a href="#subscription"><img src="images/portada.jpg"></a>
-	        <a href="#subscription"><img src="images/portada2.webp.png"></a>
+			<a href="#subscription">
+				<img src="images/portada.png">
+				<section class="flex-caption">
+					<p>Lorem ipsun</p>
+				</section>
+			</a>
+	        <a href="#subscription">
+	        	<img src="images/portada2.webp.png">
+	        	<section class="flex-caption">
+	        		<p>Lorem ipsun</p>
+	        	</section>
+	        </a>
 	        <a href="#subscription">
 	        	<video controls>
 	        		<source src="images/sospechosas-inesperadas-tl.mp4" type="video/mp4">
@@ -85,15 +100,15 @@
 		</div>
 
 		<div class="other-covers">
-			<a src="covers/#"><img src="covers/#"></a>
-			<a src="covers/#"><img src="covers/#"></a>
-			<a src="covers/#"><img src="covers/#"></a>
-			<a src="covers/#"><img src="covers/#"></a>
-			<a src="covers/#"><img src="covers/#"></a>
+			<a src="covers/#suscription"><img src="images/corredor/canalnostalgia.webp"></a>
+			<a src="covers/#suscription"><img src="images/corredor/decinema.webp"></a>
+			<a src="covers/#suscription"><img src="images/corredor/elindividuo.webp"></a>
+			<a src="covers/#suscription"><img src="images/corredor/femmes fatales.webp"></a>
+			<a src="covers/#suscription"><img src="images/corredor/ficx.webp"></a>
 		</div>
 
 
-		<div class="other-covers">
+		<div class="other-covers-2">
 			<h2>Las más vistas</h2>
 			<a src="covers/#las-mas-vistas"><img src="covers/"></a>
 			<a src="covers/#las-mas-vistas"><img src="covers/"></a>
@@ -103,7 +118,7 @@
 		</div>
 
 
-		<div class="other-covers">
+		<div class="other-covers-3">
 			<h2>Títulos recomendados<h2>
 			<a src="covers/#las-mas-vistas"><img src="covers/"></a>
 			<a src="covers/#las-mas-vistas"><img src="covers/"></a>
