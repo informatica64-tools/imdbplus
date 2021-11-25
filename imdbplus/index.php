@@ -14,16 +14,6 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 
-	<script type="text/javascript" charset="utf-8">
-		$(window).load(function() {
-		    $('.flexslider').flexslider({
-		    	touch: true,
-		    	pauseOnAction: false,
-		    	pauseOnHover: false,
-		    });
-		});
-	</script>
-
 </head>
 <body>
 
@@ -80,23 +70,30 @@
 
 
 		<div class="floaiting-cover">
-			<a href="#subscription">
+			<a class="portadas" href="#subscription">
 				<img src="images/portada.png">
-				<section class="flex-caption">
-					<p>Lorem ipsun</p>
-				</section>
 			</a>
-	        <a href="#subscription">
+
+			<a href="http://localhost/imdbplus/#suscription">
+				<img class="friday" src="images/black-friday.svg">
+			</a>
+
+			<i class="oferta">1 año de cine y series por 60 €</i>
+
+			<div class="buton1">
+				<button type="button" id="buton2" class="btn">MORE INFORMATION</button>
+			</div>
+
+	        <a class="portadas" href="#subscription">
 	        	<img src="images/portada2.webp.png">
-	        	<section class="flex-caption">
-	        		<p>Lorem ipsun</p>
-	        	</section>
 	        </a>
-	        <a href="#subscription">
+
+	        <a class="portadas" href="#subscription">
 	        	<video controls>
 	        		<source src="images/sospechosas-inesperadas-tl.mp4" type="video/mp4">
 	        	</video>
 	        </a>
+
 		</div>
 
 		<div class="other-covers">
@@ -132,7 +129,6 @@
 		
 	</footer>
 
-	<script type="text/javascript" src="js/jquery.flexslider.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

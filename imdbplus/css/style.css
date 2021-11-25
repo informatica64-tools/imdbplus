@@ -1,6 +1,16 @@
+body {
+   font-family: -apple-system, 
+                BlinkMacSystemFont, 
+                "Segoe UI", 
+                Roboto, 
+                Oxygen-Sans, 
+                Ubuntu, 
+                Cantarell, 
+                "Helvetica Neue", 
+                sans-serif;
+}
 
-
-.floaiting-cover a img,.floaiting-cover a video{
+.portadas img,.portadas video{
     position: relative;
     align-items: center;
     border-radius: 5px;
@@ -71,10 +81,10 @@ a:hover {
 }
 
 .nav {
-    right: 35px;
+    right: 65px;
     position: relative;
     padding: 10px;
-    font-family: sans-serif;
+	font-family: Brandon,-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: medium;
 }
 
@@ -82,7 +92,7 @@ a:hover {
 	text-decoration: none;
 	border: solid white 0.1rem;
     padding: 5px;
-    font-family: monospace;
+    font-family: Brandon,-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-weight: bold;
 }
 
@@ -130,4 +140,41 @@ a:hover {
     background: transparent;
     color: white;
     border: none;
+}
+
+.friday{
+    position: relative;
+    left: 32%;
+    bottom: 400px;
+    float: left;
+    width: 30%;
+}
+
+.oferta {
+    position: relative;
+    text-align: center;
+    bottom: 330px;
+    color: white;
+    font-family: fantasy;
+    font-size: 2.9rem;
+}
+
+.portadas{
+	text-decoration: none;
+}
+
+#buton2 {
+    background: #ffff5e;
+    font-weight: bold;
+    position: relative;
+    height: 50px;
+    width: 210px;
+    font-size: 1.1rem;
+    left: 43rem;
+    font-family: Brandon,-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.buton1{
+	position: relative;
+    bottom: 290px;
 }
