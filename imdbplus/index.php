@@ -61,40 +61,37 @@
 	<div class="start">
 		<a class="c-button bt" href="#subscription/subscribe.php">SUBSCRIBE</a>
 		<a class="c-button buton" href="#register/register.php">ENTER</a>
-
-		<button class="ml-3 icon--md c-link c-link--text search-icon" type="button" title="Busca en el catálogo..." data-toggle="modal" data-target="#filmin-search" name="search">
-			<i class="fas fa-search"></i>
-		</button>
-
 	</div>
 
 
-		<div class="floaiting-cover">
-			<a class="portadas" href="#subscription">
+		<div class="floating-cover">
+			<div class="portadas mySlider" href="#subscription">
 				<img src="images/portada.png">
-			</a>
-
-			<a href="http://localhost/imdbplus/#suscription">
-				<img class="friday" src="images/black-friday.svg">
-			</a>
-
-			<i class="oferta">1 año de cine y series por 60 €</i>
-
-			<div class="buton1">
-				<button type="button" id="buton2" class="btn">MORE INFORMATION</button>
 			</div>
 
-	        <a class="portadas" href="#subscription">
+	        <div class="portadas mySlider" href="#subscription">
 	        	<img src="images/portada2.webp.png">
-	        </a>
+	        </div>
 
-	        <a class="portadas" href="#subscription">
-	        	<video controls>
+	        <div class="portadas mySlider" href="#subscription">
+	        	<video controls id="video">
 	        		<source src="images/sospechosas-inesperadas-tl.mp4" type="video/mp4">
 	        	</video>
-	        </a>
+	        </div>
+
+	        <div class="directions">
+	        	<a href="" class="back" onclick="goSlide(-1)">&#10094</a>
+	        	<a href="" class="next" onclick="goSlide(1)">&#10095</a>
+	        </div>
+
+	        <div class="bars">
+	        	<span class="bar active" onclick="positionSlide(1)"></span>
+	        	<span class="bar" onclick="positionSlide(2)"></span>
+	        	<span class="bar" onclick="positionSlide(3)"></span>
+	        </div>
 
 		</div>
+
 
 		<div class="other-covers">
 			<a src="covers/#suscription"><img src="images/corredor/canalnostalgia.webp"></a>
@@ -106,22 +103,22 @@
 
 
 		<div class="other-covers-2">
-			<h2>Las más vistas</h2>
-			<a src="covers/#las-mas-vistas"><img src="covers/"></a>
-			<a src="covers/#las-mas-vistas"><img src="covers/"></a>
-			<a src="covers/#las-mas-vistas"><img src="covers/"></a>
-			<a src="covers/#las-mas-vistas"><img src="covers/"></a>
-			<a src="covers/#las-mas-vistas"><img src="covers/"></a>
+			<h2 class="mUp">Las más vistas</h2>
+			<a src="covers/#las-mas-vistas"><img src="images/corredor/canalnostalgia.webp"></a>
+			<a src="covers/#las-mas-vistas"><img src="images/corredor/decinema.webp"></a>
+			<a src="covers/#las-mas-vistas"><img src="images/corredor/elindividuo.webp"></a>
+			<a src="covers/#las-mas-vistas"><img src="images/corredor/femmes fatales.webp"></a>
+			<a src="covers/#las-mas-vistas"><img src="images/corredor/ficx.webp"></a>
 		</div>
 
 
 		<div class="other-covers-3">
-			<h2>Títulos recomendados<h2>
-			<a src="covers/#las-mas-vistas"><img src="covers/"></a>
-			<a src="covers/#las-mas-vistas"><img src="covers/"></a>
-			<a src="covers/#las-mas-vistas"><img src="covers/"></a>
-			<a src="covers/#las-mas-vistas"><img src="covers/"></a>
-			<a src="covers/#las-mas-vistas"><img src="covers/"></a>
+			<h2 class="mUp">Títulos recomendados<h2>
+			<a src="covers/#las-mas-vistas"><img src="images/corredor/canalnostalgia.webp"></a>
+			<a src="covers/#las-mas-vistas"><img src="images/corredor/decinema.webp"></a>
+			<a src="covers/#las-mas-vistas"><img src="images/corredor/elindividuo.webp"></a>
+			<a src="covers/#las-mas-vistas"><img src="images/corredor/femmes fatales.webp"></a>
+			<a src="covers/#las-mas-vistas"><img src="images/corredor/ficx.webp"></a>
 		</div>
 
 
