@@ -19,7 +19,7 @@
 
 	<div class="title-selector">
 
-		<h1><a href="./" class="mr-4">IMDBPLUS</a></h1>
+		<h1 class="logo"><a href="./" class="mr-4">IMDBPLUS</a></h1>
 
 		<nav class="nav nav--menu">
 
@@ -59,28 +59,28 @@
 
 
 	<div class="start">
-		<a class="c-button bt" href="#subscription/subscribe.php">SUBSCRIBE</a>
+		<a class="c-button bt" href="subscription/subscribe.php">SUBSCRIBE</a>
 		<a class="c-button buton" href="#register/register.php">ENTER</a>
 	</div>
 
 
 		<div class="floating-cover">
-			<div class="portadas mySlider" href="#subscription">
+			<div class="mySlider" href="#subscription">
 				<img src="images/portada.png">
 			</div>
 
-	        <div class="portadas mySlider" href="#subscription">
+	        <div class="mySlider" href="#subscription">
 	        	<img src="images/portada2.webp.png">
 	        </div>
 
-	        <div class="portadas mySlider" href="#subscription">
-	        	<video controls id="video">
+	        <div class="mySlider" href="#subscription">
+	        	<video class="video" controls id="video">
 	        		<source src="images/sospechosas-inesperadas-tl.mp4" type="video/mp4">
 	        	</video>
 	        </div>
 
 	        <div class="directions">
-	        	<a href="" class="back" onclick="goSlide(-1)">&#10094</a>
+	        	<a href="" class="back" onclick="backSlide(-1)">&#10094</a>
 	        	<a href="" class="next" onclick="goSlide(1)">&#10095</a>
 	        </div>
 

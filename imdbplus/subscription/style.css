@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    background: #060613;
+    color: white;
+}
+
+.subscribeButon{
+    float: right;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.abs{
+    width: 100%;
+}
+
+.header, .gradient, .container{
+    position: absolute;
+}
+
+.container{
+    width: 100%;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    top: 0;
+    display: ;
+}
+

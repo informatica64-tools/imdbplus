@@ -1,6 +1,6 @@
 body{
     background: #060613;
-    margin: 0 2.5rem;
+    margin: 0 4rem;
 }
 
 h1 a{
@@ -31,8 +31,8 @@ ul{
 nav li a {
     text-decoration: none;
     color: white;
-    padding: 10px;
-    padding-left: 20px;
+    padding: 15px;
+
 }
 
 a:hover {
@@ -54,28 +54,28 @@ a:hover {
     flex-wrap: initial;
 }
 
-.nav {
+.nav{
     position: relative;
-    font-size: medium;
+    bottom: 45px;
+    margin-left: 10rem;
 }
 
 .start a{
 	text-decoration: none;
-	border: solid white 0.1rem;
-    padding: 5px;
+    padding: 2px;
     font-weight: bold;
 }
 
 .buton{
-	border: solid white 3px !important;
+	border: solid white 2px !important;
     border-radius: 5px;
     color: white;
 }
 
 .bt{
 	color: black;
-    background: #ffff5e;
-	border: solid #ffff5e 3px !important;
+    background: #02ffa1;
+	border: solid #02ffa1 3px !important;
 	border-radius: 5px;
 }
 
@@ -87,7 +87,7 @@ a:hover {
     width: 30%;
 }
 
-.oferta {
+.oferta{
     position: relative;
     text-align: center;
     bottom: 330px;
@@ -96,7 +96,7 @@ a:hover {
     font-size: 2.9rem;
 }
 
-.portadas{
+.mySlider{
 	text-decoration: none;
 }
 
@@ -105,3 +105,14 @@ a:hover {
     margin-top: 1.5rem;
     color: #fff;
 }
+
+.video{
+    position: relative;
+    width: 100%;
+}
+
+.mySlider img{
+    position: relative;
+    border-radius: 0.3rem;
+}
+

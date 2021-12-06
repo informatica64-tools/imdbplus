@@ -1,9 +1,17 @@
-function buttonClick(){
-	let id = document.getElementById('buton2')
+let indice = 1;
 
-	id.addEventListener('click', function(){
-		location.href = "http://localhost/imdbplus/#suscription"
-	})
+showSlide(indice);
+
+function goSlide(n){
+	showSlide(indice+=n)
 }
-buttonClick()
 
+function positionSlide(){
+
+}
+
+function backSlide(n){
+	showSlide()
+}
+
+showSlide(indice=n)

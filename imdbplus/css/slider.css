@@ -27,12 +27,11 @@
 
 .floating-cover{
     max-width: 100%;
-    max-height: 100vh;
+    max-height: 305vh;
     width: 100%;
     height: auto;
     position: relative;
-    
-
+    overflow: hidden;
 }
 
 .mySlider img{
@@ -68,11 +67,13 @@
 }
 
 .bars{
-    position: absolute;
+    position: inherit;
     bottom: 0;
     width: 100%;
+    display: flex;
     justify-content: center;
-    margin-bottom: 15px;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 .bar{
@@ -83,5 +84,9 @@
     background: #dcdde1;
     display: inline-block;
     margin-left: 3px;
+}
+
+.active{
+    background-color: #e74c3c;
 }
 
